@@ -261,7 +261,7 @@ const initiateToastContainer = function (instance) {
 	// create notification container
 	const container = document.createElement('div');
 	container.id = instance.id;
-	container.setAttribute('role', 'status');
+	container.setAttribute('role', 'alert');
 	container.setAttribute('aria-live', 'polite');
 	container.setAttribute('aria-atomic', 'false');
 
